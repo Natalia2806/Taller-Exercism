@@ -1,3 +1,7 @@
-import datetime
-def add(moment):
-    return moment + datetime.timedelta(seconds=10**9)
+from datetime import timedelta
+Gs = timedelta(seconds=10**9)
+
+def add(birthday):
+
+	return birthday + Gs
+
